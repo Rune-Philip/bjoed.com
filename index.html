@@ -23,6 +23,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    .avatar-box img {
+      border-radius: 50%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    .avatar-box img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+  </style>
 </head>
 
 <body>
@@ -42,7 +54,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/rune billede 1.png" alt="Richard hanrick" width="80">
+          <img src="./assets/images/rune billede 1.png" alt="Rune" width="100">
         </figure>
 
         <div class="info-content">
